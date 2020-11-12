@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+body {
+  overflow: hidden;
+}
+
+form {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background: #efefef;
+//   padding: 1em;
+  text-align: center;
+  input {
+      height: 4em;
+      width: 4em;
+      background: #fff;
+      border: 1px solid #efefef;
+      text-align: center;
+      font-weight: bold;
+      font-size: 3em;
+  }
+}
+
+
+.field {
+    position: relative;
+    .bold_link {
+        font-weight: bold;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        padding: 1em;
+        cursor: pointer;
+    }
+    label.name {
+        font-weight: bold;
+        text-align: center;
+        color: #ccc;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 1em;
+        background: transparent;
+        text-transform: uppercase;
+    }
+}
+canvas {
+    height: 50vh !important;
+}
